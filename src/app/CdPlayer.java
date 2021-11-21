@@ -23,6 +23,11 @@ public class CdPlayer {
         title = null;
         System.out.println(description + " eject");
     }
+    
+    public void insert() {
+        title = null;
+        System.out.println(description + " insert");
+    }
 
     public void play(String title) {
         this.title = title;
